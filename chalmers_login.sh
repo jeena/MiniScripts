@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # chalmers_login.sh logges you in into the Chalmers NOMAD wireless
-# network. You have to chmod 755 it and I recommend to start it
-# via Quicksilver. It uses growl to notify you about success or
-# faulire.
+# network (a university in Gothenbourg where I study). You have to
+# chmod 755 it and I recommend to start it via Quicksilver. It uses
+# growl to notify you about success or faulire.
 #
 # Author: Jeena Paradies <spam@jeenaparadies.net>
 # This script is public domain.
