@@ -13,7 +13,7 @@
  * /lastfm username    => to set user last.fm username (e.g.: /lastfm johndoe)
  * /lastfm getusername => to see your default last.fm username
  *
- * Autoho Jeena Paradies <spam@jeenaparadies.net>
+ * Author: Jeena Paradies <spam@jeenaparadies.net>
  * This plugin is public domain.
  * This plugin is OS X Colloquy <http://colloquy.info> only.
  */
