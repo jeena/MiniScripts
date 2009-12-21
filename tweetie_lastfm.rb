@@ -1,23 +1,26 @@
 #!/usr/bin/env ruby
 
-# This script tweets "I'm listening to ..." via Tweetie
+# This script tweets "I'm listening to ..." via
+# Tweetie <http://www.atebits.com/tweetie-mac/>
 # It gets the information from http://last.fm
-# It also adds a Spotify link 
+# It also adds a Spotify link.
 
 # This script is OS X only.
 
 # This script is public domain
-# Written by Jeena Paradies <spam@jeenaparadies.net> 2009-07-23
+# Author: Jeena Paradies <spam@jeenaparadies.net>
+# Written 2009-07-23
 # Added spotify support 2009-10-27
+# This script is public domain
 
 # Change the username to yours:
 username = "yourusername"
 
 # Save the script somewhere, for example:
-# ~/Library/Scripts/twlastfm.rb
+# ~/Library/Scripts/tweetie_lastfm.rb
 #
 # Make it executable on the console:
-# chmod 755 ~/Library/Scripts/twlastfm.rb
+# chmod 755 ~/Library/Scripts/tweetie_lastfm.rb
 #
 # Use Quicksilver to start it.
 
