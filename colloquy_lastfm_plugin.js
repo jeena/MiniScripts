@@ -115,7 +115,7 @@ function processUserCommand( command, arguments, connection, view ) {
         url += defaults.stringForKey("lastfmUsername");
         url += "&api_key=213ac7a42cd7a69b82b7a57c6b067c6c";
         
-	    req.open('GET', url, true);
+	req.open('GET', url, true);
         req.send(null);
 
 	    return true;
