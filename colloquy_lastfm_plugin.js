@@ -1,3 +1,23 @@
+/**
+ * This Colloquy <http://colloquy.info> plugin posts a
+ * "/me is listening to ..." into the chanel you are
+ * talking on in IRC.
+ *
+ * Save this plugin into:
+ * ~/Library/Application Support/Colloquy/PlugIns/colloquy_lstfm_plugin.js
+ *
+ * Restart Colloquy to load the plugin (/reload plugins doesn't always work).
+ *
+ * Usage:
+ * /lastfm help        => to show the help
+ * /lastfm username    => to set user last.fm username (e.g.: /lastfm johndoe)
+ * /lastfm getusername => to see your default last.fm username
+ *
+ * Autoho Jeena Paradies <spam@jeenaparadies.net>
+ * This plugin is public domain.
+ * This plugin is OS X Colloquy <http://colloquy.info> only.
+ */
+
 function processUserCommand( command, arguments, connection, view ) {
     
 	if(command.toLowerCase() == "lastfm") {
