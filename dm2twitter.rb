@@ -7,6 +7,7 @@ require "twitter"
 #
 # Licence: BSD
 # Author: Jeena Paradies <spam@jeenaparadies.net>
+# Dependences: twitter gem <http://twitter.rubyforge.org/>
 # 
 #
 # You could use it with Postfix and add to /etc/aliases
