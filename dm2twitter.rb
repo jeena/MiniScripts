@@ -10,7 +10,7 @@ require "twitter"
 # Dependences: twitter gem <http://twitter.rubyforge.org/>
 #
 # You could use it with Postfix and add to /etc/aliases
-# myuser: myuser, "|/home/myuser/scripts/sender.sh"
+# myuser: myuser, "|/home/myuser/scripts/dm2twitter.rb"
 #
 # Or you could run it with help of a crontab every couple
 # of minutes.
